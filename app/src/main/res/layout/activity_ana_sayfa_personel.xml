@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnaSayfaPersonel">
+
+    <TextView
+        android:id="@+id/txtPersonelIslemleri"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="#F10202"
+        android:gravity="center"
+        android:text="@string/txtPersonelIslemleri"
+        android:textColor="#F8F6F6"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnAdisyonIslemleriPersonel"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:text="@string/Adisyon"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAyarlarPersonel"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:text="@string/Ayarlar"
+        android:textSize="24sp" />
+</LinearLayout>

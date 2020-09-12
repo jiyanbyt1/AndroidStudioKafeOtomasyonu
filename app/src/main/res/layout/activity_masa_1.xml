@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Masa_1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#EE0505"
+        android:gravity="center"
+        android:text="@string/MASA_1"
+        android:textColor="#FFFCFC"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnaddkebap2"
+            android:layout_width="103dp"
+            android:layout_height="33dp"
+            android:background="#FFFFFF"
+            android:textSize="12sp"
+            android:onClick="add_onClick"
+            android:text="@string/Kebap"
+             />
+
+        <Button
+            android:id="@+id/btnaddsuluyemek2"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="#FFFFFF"
+            android:onClick="add_onClick"
+            android:text="@string/kuru_fasulye_15tl"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnaddmakarna2"
+            android:layout_width="103dp"
+            android:layout_height="33dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:onClick="add_onClick"
+            android:text="@string/makarna_8tl"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:text="@string/sil"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="@string/verilen_sipari_ler"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="415dp" />
+
+    <Button
+        android:id="@+id/temizle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#965C5C"
+        android:text="@string/btnMasaKapat"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

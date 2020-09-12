@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AlertDialog.AppCompat"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="#0B2CD5"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/txtGiris"
+        android:textColor="#E4FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etxtKullaniciAdi"
+        tools:ignore="LabelFor"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="@string/l_tfen_kullan_c_ad_n_z_giriniz"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/etxtKullaniciAdi"
+        android:padding="25dp"
+        android:textColorHint="@color/colorPrimary"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/etxtSifre"
+        tools:ignore="LabelFor"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="@string/l_tfen_ifrenizi_giriniz"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:labelFor="@id/etxtSifre"
+        android:padding="25dp"
+        android:textColorHint="@color/colorPrimary"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/giri_yap"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btncikis"
+
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="@string/cikis"
+            android:textSize="24sp" />
+    </ScrollView>
+</LinearLayout>

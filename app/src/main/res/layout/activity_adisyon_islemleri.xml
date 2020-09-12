@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdisyonIslemleri">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="#F10332"
+        android:gravity="center"
+        android:text="@string/adisyon_islemleri"
+        android:textColor="#FFFFFF"
+
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/button_shape"
+        android:columnCount="4"
+        android:foregroundGravity="center"
+        android:rowCount="4"
+        android:theme="@style/AppTheme">
+
+        <Button
+            android:id="@+id/btnMasa1"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:background="#2196F3"
+            android:text="@string/MASA_1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnMasa2"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:background="#2196F3"
+            android:text="@string/MASA_2"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/MASA_3"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:background="#2196F3"
+            android:text="@string/MASA_3"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="107dp"
+            android:background="#2196F3"
+            android:text="@string/MASA_4"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>
+

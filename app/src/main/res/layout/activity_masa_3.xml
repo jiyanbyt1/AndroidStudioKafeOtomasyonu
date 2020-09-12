@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Masa_3">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="#EE0505"
+        android:gravity="center"
+        android:text="@string/masa3"
+        android:textColor="#FFFCFC"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnkebap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:textSize="12sp"
+            android:text="@string/btnkebap3" />
+
+        <Button
+            android:id="@+id/btnKuruFasulye3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:textSize="12sp"
+            android:text="@string/btnKuruFasulye" />
+
+        <Button
+            android:id="@+id/btnMakarna3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:textSize="12sp"
+            android:text="@string/btnMakarna3" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSil3"
+        android:layout_width="119dp"
+        android:layout_height="36dp"
+        android:text="@string/btnSil3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verilen_sipari_ler"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="387dp" />
+
+    <Button
+        android:id="@+id/temizle3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#965C5C"
+        android:text="@string/btnMasaKapat"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

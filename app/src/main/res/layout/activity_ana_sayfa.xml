@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnaSayfa">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:soundEffectsEnabled="true"
+        android:text="@string/yonetici_ekran"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#00BCD4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnPersonelIslemleriYonetici"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:text="@string/Personelislemleri" />
+
+        <Button
+            android:id="@+id/btnAdisyonislemleri"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:text="@string/adisyonislemleri" />
+
+        <Button
+            android:id="@+id/MASA_3"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:text="@string/Ayarlar" />
+
+
+</LinearLayout>
